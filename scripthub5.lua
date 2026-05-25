@@ -84,7 +84,7 @@ local BlacklistedIDs = {}
 -- ============================================================
 local ClickSound = Instance.new("Sound")
 ClickSound.SoundId  = "rbxassetid://6895079853"
-ClickSound.Volume   = 0.45
+ClickSound.Volume   = 1.8
 ClickSound.RollOffMaxDistance = 0
 ClickSound.Parent   = SoundService
 
@@ -973,7 +973,7 @@ local function buildHub()
     end)
 
     -- ── Trigger particle loader, fade hub in on completion ─────
-    buildParticleLoader(fadeIn)
+    -- buildParticleLoader(fadeIn)
 end
 
 buildHub()
